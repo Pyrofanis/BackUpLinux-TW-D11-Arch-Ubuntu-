@@ -9,6 +9,7 @@ lutris aptitude qemu grub-customizer snapd gnome-boxes steam
 gnome-session gnome-tweaks winetricks gufw 
 
 *Flatpak apps list*
+
 zoom pixelorama libresprite 
 microsoft-teams skype 
 atom rider github-desktop
@@ -16,10 +17,12 @@ appimagepool viber
 greenwithenvy
 
 *Snap apps list*
+
 scrcpy sosumi 
 discord spotify 
 visual-studio-code
 
 *Extras*
+
 ani-cli(https://github.com/pystardust/ani-cli)
 Firefox-gnome-theme(https://github.com/rafaelmardojai/firefox-gnome-theme)
