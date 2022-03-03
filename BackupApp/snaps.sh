@@ -1,2 +1,2 @@
-sudo snap install scrcpy sosumi discord spotify 
+sudo snap install  sosumi  spotify 
 sudo snap install code --classic 
