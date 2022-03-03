@@ -6,7 +6,7 @@ mono-devel mono-complete mono-dbg ca-certificates-mono mono-xsp4
 cmake arduino make scilab octave kicad freecad librecad 
 timeshift inkscape gimp wine  htop neofetch  virt-manager 
 lutris aptitude qemu grub-customizer snapd gnome-boxes steam 
-gnome-session gnome-tweaks winetricks gufw 
+gnome-session gnome-tweaks winetricks gufw scrcpy discord
 
 *Flatpak apps list*
 
@@ -18,8 +18,7 @@ greenwithenvy
 
 *Snap apps list*
 
-scrcpy sosumi 
-discord spotify 
+ sosumi spotify 
 visual-studio-code
 
 *Extras*
