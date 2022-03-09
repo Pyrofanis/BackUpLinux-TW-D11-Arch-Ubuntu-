@@ -10,4 +10,5 @@ sudo rm -rf ani-cli
 git clone https://github.com/ricardo-vieira/snapper-gui/
 cd snapper-gui/
 sudo python3 setup.py install
-curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+
+sudo create-config /
