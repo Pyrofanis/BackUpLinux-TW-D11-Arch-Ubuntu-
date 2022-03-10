@@ -12,3 +12,5 @@ cd snapper-gui/
 sudo python3 setup.py install
 
 sudo create-config /
+git-lfs clone https://gitlab.com/z-ray-entertainment/opensuse-wallpapers.git
+mv opensuse-wallpapers ~/Imágenes
