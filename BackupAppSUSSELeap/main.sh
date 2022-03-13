@@ -1,4 +1,3 @@
-sudo zypper addrepo --refresh    https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed    snappy 
 sudo zypper --gpg-auto-import-keys refresh
 sudo zypper dup --from snappy
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -13,7 +12,6 @@ sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://packageclo
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
 sudo zypper addrepo https://repo.skype.com/rpm/stable/skype-stable.repo
-sudo zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA
 sudo ./zypper.sh 
 ./flatpaks.sh
 sudo ./utilities.sh
