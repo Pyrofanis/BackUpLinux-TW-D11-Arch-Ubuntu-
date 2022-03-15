@@ -1,4 +1,3 @@
-sudo zypper addrepo --refresh    https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed     snappy 
 sudo zypper --gpg-auto-import-keys refresh
 sudo zypper dup --from snappy
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -13,6 +12,17 @@ sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://packageclo
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
 sudo zypper addrepo https://repo.skype.com/rpm/stable/skype-stable.repo
+sudo zypper ar http://download.opensuse.org/repositories/games/openSUSE_Tumbleweed/ games
+sudo zypper ar http://download.opensuse.org/repositories/games:tools/openSUSE_Tumbleweed/ games:tools
+sudo zypper ar https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Tumbleweed/
+sudo zypper ar  https://download.opensuse.org/repositories/science/openSUSE_Tumbleweed/
+sudo zypper ar  https://download.opensuse.org/repositories/mozilla/openSUSE_Tumbleweed/
+wget https://dl.google.com/linux/linux_signing_key.pub
+sudo rpm --import linux_signing_key.pub
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo zypper ar https://packages.microsoft.com/yumrepos/ms-teams/ ms-teams
+sudo zypper refresh
+
 sudo ./zypper.sh 
 ./flatpaks.sh
 sudo ./utilities.sh
