@@ -1,1 +1,1 @@
-sudo snap install  sosumi  spotify 
+sudo snap install  sosumi  spotify skype
