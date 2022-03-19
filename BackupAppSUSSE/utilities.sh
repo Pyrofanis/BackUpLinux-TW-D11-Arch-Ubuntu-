@@ -7,9 +7,6 @@ cd
 su pyrofanis
 cd Descargas
 sudo rm -rf ani-cli
-git clone https://github.com/ricardo-vieira/snapper-gui/
-cd snapper-gui/
-sudo python3 setup.py install
 
 sudo create-config /
 git-lfs clone https://gitlab.com/z-ray-entertainment/opensuse-wallpapers.git
