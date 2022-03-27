@@ -16,6 +16,7 @@ sudo zypper ar http://download.opensuse.org/repositories/games:tools/openSUSE_Tu
 sudo zypper ar https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Tumbleweed/
 sudo zypper ar  https://download.opensuse.org/repositories/science/openSUSE_Tumbleweed/
 sudo zypper ar  https://download.opensuse.org/repositories/mozilla/openSUSE_Tumbleweed/
+sudo zypper ar https://download.opensuse.org/repositories/shells:fish:release:3/openSUSE_Tumbleweed/shells:fish:release:3.repo
 wget https://dl.google.com/linux/linux_signing_key.pub
 sudo rpm --import linux_signing_key.pub
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
