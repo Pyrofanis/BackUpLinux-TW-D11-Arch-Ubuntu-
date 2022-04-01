@@ -1,3 +1,4 @@
+su pyrofanis
 cd ~/Descargas
 git clone https://github.com/pystardust/ani-cli
 cd ani-cli
@@ -8,6 +9,6 @@ su pyrofanis
 cd Descargas
 sudo rm -rf ani-cli
 
-sudo create-config /
-git-lfs clone https://gitlab.com/z-ray-entertainment/opensuse-wallpapers.git
-mv opensuse-wallpapers ~/Imágenes
+#sudo create-config /
+#git-lfs clone https://gitlab.com/z-ray-entertainment/opensuse-wallpapers.git
+#mv opensuse-wallpapers ~/Imágenes
