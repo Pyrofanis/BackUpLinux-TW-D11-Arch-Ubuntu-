@@ -1,1 +1,0 @@
-flatpak install flathub us.zoom.Zoom com.orama_interactive.Pixelorama com.github.libresprite.LibreSprite com.leinardi.gwe com.microsoft.Teams com.skype.Client io.atom.Atom com.jetbrains.Rider io.github.shiftey.Desktop io.github.prateekmedia.appimagepool sh.ppy.osu com.viber.Viber com.github.tchx84.Flatseal -y
