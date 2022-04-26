@@ -10,17 +10,7 @@ sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
 sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://packagecloud.io/shiftkey/desktop/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/shiftkey/desktop/gpgkey" > /etc/zypp/repos.d/shiftkey-desktop.repo'
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo zypper ar  https://packages.microsoft.com/yumrepos/vscode vscode
-sudo zypper ar  https://repo.skype.com/rpm/stable/skype-stable.repo
-sudo zypper ar   http://download.opensuse.org/repositories/games/openSUSE_Tumbleweed/ games
-sudo zypper ar  http://download.opensuse.org/repositories/games:tools/openSUSE_Tumbleweed/ games:tools
-sudo zypper ar  https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Tumbleweed/
-sudo zypper ar   https://download.opensuse.org/repositories/science/openSUSE_Tumbleweed/
-sudo zypper ar  https://download.opensuse.org/repositories/mozilla/openSUSE_Tumbleweed/
-wget https://dl.google.com/linux/linux_signing_key.pub
-sudo rpm --import linux_signing_key.pub
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo zypper ar   https://packages.microsoft.com/yumrepos/ms-teams/ ms-teams
-sudo zypper refresh
+
 
 sudo ./zypper.sh 
 ./flatpaks.sh
