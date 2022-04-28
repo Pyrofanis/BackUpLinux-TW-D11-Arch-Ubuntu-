@@ -1,5 +1,4 @@
 sudo zypper --gpg-auto-import-keys refresh
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 wget https://packages.microsoft.com/config/opensuse/15/prod.repo
 sudo mv prod.repo /etc/zypp/repos.d/microsoft-prod.repo
