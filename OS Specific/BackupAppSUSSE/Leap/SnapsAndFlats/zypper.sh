@@ -7,3 +7,5 @@ sudo zypper in    -t pattern yast2_server
 sudo zypper dup    --from packman --allow-vendor-change
 sudo zypper install   opi 
 opi  codecs 
+opi snapd
+

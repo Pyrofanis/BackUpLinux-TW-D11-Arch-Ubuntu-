@@ -22,5 +22,5 @@ sudo install -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/microsoft-
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt update && sudo apt upgrade -y
 sudo apt install flatpak snapd apt-transport-https -y
-sudo ./apt.sh && sudo ./flatpaks.sh && sudo ./snaps.sh
+sudo ./apt.sh && sudo ./flatpaks.sh 
 

@@ -22,6 +22,18 @@ sudo snap install code --classic
 sudo snap install blender --classic
 sudo snap install rider --classic
 sudo snap install krita --candidate
+sudo snap install nuclear
+sudo snap install pixelorama
+sudo snap install guiscrcpy
+sudo snap install codium
+sudo snap install android-studio --classic
+sudo snap install video-downloader
+sudo snap install musescore
+sudo snap install onvif
+sudo snap install godot
 sudo snap install dotnet-sdk --classic --channel=6.0
 sudo snap alias dotnet-sdk.dotnet dotnet
 sudo snap install dotnet-runtime-60 --classic
+sudo snap install steam --beta
+sudo snap install anbox --edge
+

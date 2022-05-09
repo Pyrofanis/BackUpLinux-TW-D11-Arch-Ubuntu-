@@ -1,6 +1,7 @@
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub us.zoom.Zoom com.orama_interactive.Pixelorama com.github.libresprite.LibreSprite    com.jetbrains.Rider io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager com.viber.Viber in.srev.guiscrcpy com.github.tchx84.Flatseal -y
-flatpak install flathub com.jetbrains.Rider -y
-
-flatpak install com.orama_interactive.Pixelorama   com.jetbrains.Rider io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager com.viber.Viber in.srev.guiscrcpy com.github.tchx84.Flatseal net.davidotek.pupgui2 com.heroicgameslauncher.hgl com.usebottles.bottles com.github.Matoking.protontricks  com.anydesk.Anydesk  com.spotify.Client  us.zoom.Zoom    org.signal.Signal org.yuzu_emu.yuzu org.gnome.Firmware org.gnome.gitlab.YaLTeR.Identity org.gnome.gitlab.somas.Apostrophe com.github.unrud.VideoDownloader  org.gabmus.whatip org.gabmus.gfeeds com.bitstower.Markets com.github.liferooter.textpieces com.rafaelmardojai.Blanket com.github.hugolabe.Wike    org.gnome.Evolution cc.arduino.arduinoide   de.lernsoftware_filius.Filius md.obsidian.Obsidian org.pitivi.Pitivi net.meijn.onvifviewer com.github.PintaProject.Pinta org.desmume.DeSmuME com.google.AndroidStudio  org.gnome.Builder com.getmailspring.Mailspring  com.skype.Client com.microsoft.Teams -y
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak update --appstream
+flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal net.davidotek.pupgui2  com.usebottles.bottles com.github.Matoking.protontricks com.anydesk.Anydesk      org.gnome.Firmware   org.gabmus.whatip com.rafaelmardojai.Blanket de.lernsoftware_filius.Filius md.obsidian.Obsidian org.pitivi.Pitivi   org.desmume.DeSmuME    io.github.achetagames.epic_asset_manager    -y
+flatpak install org.js.nuclear.Nuclear   com.getmailspring.Mailspring com.viber.Viber   com.orama_interactive.Pixelorama    org.yuzu_emu.yuzu    net.meijn.onvifviewer com.jetbrains.Rider com.spotify.Client -y 
