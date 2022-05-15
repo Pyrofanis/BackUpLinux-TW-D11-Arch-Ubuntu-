@@ -35,3 +35,4 @@ sudo snap alias dotnet-sdk.dotnet dotnet
 sudo snap install dotnet-runtime-60 --classic
 sudo snap install steam --beta
 sudo snap install anbox --edge
+sudo snap install poddr
