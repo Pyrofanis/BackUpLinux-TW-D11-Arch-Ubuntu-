@@ -37,3 +37,4 @@ sudo snap install dotnet-runtime-60 --classic
 sudo snap install steam --beta
 sudo snap install anbox --edge
 sudo snap install poddr
+sudo snap install tela-icons
