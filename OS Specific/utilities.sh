@@ -12,3 +12,5 @@ sudo rm -rf ani-cli
 #sudo create-config /
 #git-lfs clone https://gitlab.com/z-ray-entertainment/opensuse-wallpapers.git
 #mv opensuse-wallpapers ~/Imágenes
+#curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+#curl -s -o- https://raw.githubusercontent.com/BenJetson/gnome-dash-fix/master/appfixer.sh | bash
