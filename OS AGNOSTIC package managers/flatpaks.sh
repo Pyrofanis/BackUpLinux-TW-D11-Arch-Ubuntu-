@@ -7,7 +7,8 @@ flatpak update --appstream
 flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal              -y
 
 #utillity
-flatpak install in.srev.guiscrcpy  com.github.unrud.VideoDownloader   com.github.wwmm.pulseeffects  -y 
+flatpak install 
+com.github.bajoja.indicator-kdeconnect  in.srev.guiscrcpy  com.github.unrud.VideoDownloader   com.github.wwmm.pulseeffects  -y 
 #browsers
  flatpak install org.mozilla.firefox -y  
 #work essentials 
