@@ -6,7 +6,7 @@ flatpak update --appstream
 flatpak install --user flathub    in.srev.guiscrcpy  com.github.unrud.VideoDownloader com.belmoussaoui.Authenticator   -y 
 
 #essential
-flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal -y
+flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  -y
 
 #browsers
 flatpak install flathub org.mozilla.firefox -y  
@@ -26,6 +26,8 @@ flatpak install flathub net.supertuxkart.SuperTuxKart -y
 
 #Proton Managers
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
+#Gamming Utillities
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud -y
 ####GAMES####
 
 #Wine
@@ -38,26 +40,56 @@ flatpak install  flathub com.transmissionbt.Transmission  -y
 #comms
 flatpak install  flathub  com.getmailspring.Mailspring  us.zoom.Zoom  com.skype.Client com.microsoft.Teams org.gnome.Fractal  -y
 #Chats
-flatpak install flathub  chatterino com.discordapp.Discord -y
+flatpak install flathub  com.chatterino.chatterino com.discordapp.Discord -y
 #Social Media Messengers
 flatpak install flathub org.signal.Signal  com.github.eneshecan.WhatsAppForLinux com.viber.Viber com.sindresorhus.Caprine  -y
 ###COMMUNICATION APPS###
 
-#engineering
-flatpak install flathub  org.freecadweb.FreeCAD org.kicad.KiCad cc.arduino.arduinoide de.lernsoftware_filius.Filius    org.gabmus.whatip -y
-#development
-flatpak install flathub  com.visualstudio.code-oss org.gnome.Builder  org.octave.Octave org.kde.cantor com.visualstudio.code  org.gnome.Platform.Compat.i386 com.google.AndroidStudio com.jetbrains.Rider org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default org.freedesktop.Sdk.Extension.dotnet com.unity.UnityHub  io.github.achetagames.epic_asset_manager com.vscodium.codium io.github.shiftey.Desktop com.github.sdv43.whaler com.unity.UnityHub -y
+###engineering###
+##Cad
+flatpak install flathub  org.freecadweb.FreeCAD org.kicad.KiCad -y
+##Networking 
+flatpak install flathub de.lernsoftware_filius.Filius    org.gabmus.whatip -y
+##Complex Calculation and maths
+flatpak install flathub  org.octave.Octave org.kde.cantor -y
+##Robotics
+flatpak install flathub cc.arduino.arduinoide 
+###engineering###
 
-#multimedia players
-flatpak install  flathub  org.videolan.VLC org.js.nuclear.Nuclear  io.mpv.Mpv/x86_64/stable  com.spotify.Client -y
-#multimedia production
-flatpak install  flathub  org.blender.Blender org.inkscape.Inkscape org.godotengine.Godot com.obsproject.Studio org.ardour.Ardour com.github.libresprite.LibreSprite org.kde.kdenlive  com.github.PintaProject.Pinta com.orama_interactive.Pixelorama  org.pitivi.Pitivi org.gimp.GIMP org.kde.krita -y
+###development###
+#Languages
+flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala  -y
+#IDES
+flatpak install flathub com.visualstudio.code-oss org.gnome.Builder com.visualstudio.code  com.vscodium.codium com.jetbrains.Rider  com.google.AndroidStudio  -y
+##Git Managers
+flatpak install flathub io.github.shiftey.Desktop -y
+##Game Engines
+flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot com.unity.UnityHub -y
+#Docker 
+flatpak install flathub   com.github.sdv43.whaler -y
+###development###
 
+###Multimedia###
+#multimedia players local files
+flatpak install  flathub  org.videolan.VLC io.mpv.Mpv/x86_64/stable -y
+#multimedia players services
+flatpak install flathub  com.spotify.Client app.ytmdesktop.ytmdesktop io.github.prateekmedia.pstube org.js.nuclear.Nuclear   -y
+#Multimedia production 2d drawing,editing
+flatpak install  flathub org.inkscape.Inkscape com.github.libresprite.LibreSprite com.github.PintaProject.Pinta com.orama_interactive.Pixelorama org.gimp.GIMP org.kde.krita -y
+#Multimedia production 3d
+flatpak install flathub  org.blender.Blender -y 
+#multimedia production video
+flatpak install  flathub    com.obsproject.Studio   org.kde.kdenlive   org.pitivi.Pitivi  -y
+#Multimedia production audio
+flatpak install flathub org.ardour.Ardour -y
+###Multimedia###
+
+####Gnome###
 ##gnome Apps
-flatpak install  flathub   org.gnome.Weather org.gnome.Totem   org.gnome.TextEditor org.gnome.SoundRecorder org.gnome.Notes org.gnome.Contacts      org.gnome.Podcasts org.gnome.Lollypop     org.gnome.DejaDup org.gnome.seahorse.Application org.gnome.gThumb   org.gnome.Boxes org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive  org.gnome.gitlab.somas.Apostrophe org.gnome.Firmware  org.gnome.Extensions org.gnome.Calendar  org.gnome.design.IconLibrary org.gnome.FontManager  org.gnome.Mines org.gnome.Mahjongg org.gnome.clocks org.gnome.baobab  org.gnome.Todo org.gnome.Recipes org.gnome.Photos org.gnome.Music org.gnome.Cheese org.gnome.Characters org.gnome.Calculator   org.gnome.Aisleriot org.gnome.Sudoku org.gnome.Geary  org.gnome.Photos org.gnome.eog   org.gnome.gitlab.somas.Apostrophe -y
+flatpak install  flathub   org.gnome.Weather org.gnome.Totem   org.gnome.TextEditor org.gnome.SoundRecorder org.gnome.Notes org.gnome.Contacts      org.gnome.Podcasts org.gnome.Lollypop     org.gnome.DejaDup org.gnome.seahorse.Application org.gnome.gThumb   org.gnome.Boxes org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive  org.gnome.gitlab.somas.Apostrophe org.gnome.Firmware  org.gnome.Extensions org.gnome.Calendar  org.gnome.design.IconLibrary org.gnome.FontManager  org.gnome.Mines org.gnome.Mahjongg org.gnome.clocks org.gnome.baobab  org.gnome.Todo org.gnome.Recipes org.gnome.Photos org.gnome.Music org.gnome.Cheese org.gnome.Characters org.gnome.Calculator   org.gnome.Aisleriot org.gnome.Sudoku org.gnome.Geary  org.gnome.Photos org.gnome.eog   org.gnome.gitlab.somas.Apostrophe org.gnome.Evince -y
 #gnome like apps
 flatpak install  flathub  com.github.liferooter.textpieces com.rafaelmardojai.Blanket com.github.hugolabe.Wike  -y
-
+###Gnome
 #reading
 flatpak install flathub com.github.johnfactotum.Foliate -y
 
