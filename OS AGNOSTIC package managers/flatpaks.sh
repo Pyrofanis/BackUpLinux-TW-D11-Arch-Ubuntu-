@@ -18,7 +18,7 @@ flatpak install flathub com.anydesk.Anydesk  md.obsidian.Obsidian org.libreoffic
 #The Linux Game Launcher
 flatpak install --user flathub-beta net.lutris.Lutris//beta -y
 #Game Launchers
-flatpak install flathub io.github.sharkwouter.Minigalaxy com.valvesoftware.Steam  com.heroicgameslauncher.hgl com.gitlab.librebob.Athenaeum  -y
+flatpak install flathub io.github.sharkwouter.Minigalaxy com.valvesoftware.Steam  com.heroicgameslauncher.hgl com.gitlab.librebob.Athenaeum  dev.goats.xivlauncher -y
 #Console Emulators
 flatpak install flathub org.yuzu_emu.yuzu  org.desmume.DeSmuME  app.xemu.xemu net.rpcs3.RPCS3 io.github.m64p.m64p com.dosbox.DOSBox org.duckstation.DuckStation org.flycast.Flycast org.ppsspp.PPSSPP org.tuxfamily.hatari org.citra_emu.citra org.purei.Play io.github.dosbox-staging io.mgba.mGBA ca._0ldsk00l.Nestopia com.carpeludum.KegaFusion org.DolphinEmu.dolphin-emu -y 
 #miniGames
@@ -82,6 +82,8 @@ flatpak install flathub  org.blender.Blender -y
 flatpak install  flathub    com.obsproject.Studio   org.kde.kdenlive   org.pitivi.Pitivi  -y
 #Multimedia production audio
 flatpak install flathub org.ardour.Ardour -y
+#Multimedia production interactive stories
+flatpak install flathub org.twinery.Twine -y
 ###Multimedia###
 
 ####Gnome###
