@@ -1,0 +1,4 @@
+flatpak --user override --filesystem=/home/$USER/.icons/:ro
+
+#alternativly for system wide themes
+#flatpak --user override --filesystem=/usr/share/icons/:ro

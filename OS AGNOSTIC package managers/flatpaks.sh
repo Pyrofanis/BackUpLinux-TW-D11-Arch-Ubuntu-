@@ -42,7 +42,7 @@ flatpak install  flathub  com.getmailspring.Mailspring  us.zoom.Zoom  com.skype.
 #Chats
 flatpak install flathub  com.chatterino.chatterino com.discordapp.Discord -y
 #Social Media Messengers
-flatpak install flathub org.signal.Signal  com.github.eneshecan.WhatsAppForLinux com.viber.Viber com.sindresorhus.Caprine  -y
+flatpak install flathub org.signal.Signal  com.github.eneshecan.WhatsAppForLinux com.viber.Viber com.sindresorhus.Caprine flathub uk.co.ibboard.cawbird -y
 ###COMMUNICATION APPS###
 
 ###engineering###
@@ -73,7 +73,7 @@ flatpak install flathub   com.github.sdv43.whaler -y
 #multimedia players local files
 flatpak install  flathub  org.videolan.VLC io.mpv.Mpv/x86_64/stable -y
 #multimedia players services
-flatpak install flathub  com.spotify.Client app.ytmdesktop.ytmdesktop io.github.prateekmedia.pstube org.js.nuclear.Nuclear   -y
+flatpak install flathub  com.spotify.Client app.ytmdesktop.ytmdesktop org.js.nuclear.Nuclear   -y
 #Multimedia production 2d drawing,editing
 flatpak install  flathub org.inkscape.Inkscape com.github.libresprite.LibreSprite com.github.PintaProject.Pinta com.orama_interactive.Pixelorama org.gimp.GIMP org.kde.krita -y
 #Multimedia production 3d
