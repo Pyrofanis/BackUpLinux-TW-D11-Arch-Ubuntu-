@@ -3,7 +3,7 @@ sudo zypper  in godot blender krita kdenlive flatpak steam libreoffice grep sed 
 sudo zypper  in -t pattern yast2* devel_*
 sudo zypper install  opi 
 opi  codecs 
-opi vscodium 
+opi code 
 opi skype 
 opi zoom 
 #opi msteams

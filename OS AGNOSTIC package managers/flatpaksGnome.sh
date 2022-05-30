@@ -3,10 +3,10 @@ flatpak remote-add --user --if-not-exists flathub-beta https://flathub.org/beta-
 flatpak update --appstream
 
 #utillity
-flatpak install --user flathub    in.srev.guiscrcpy  com.github.unrud.VideoDownloader com.belmoussaoui.Authenticator   -y 
+flatpak install --user flathub    in.srev.guiscrcpy    -y 
 
 #essential
-flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  -y
+flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
 
 #browsers
 flatpak install flathub org.mozilla.firefox -y  
