@@ -6,7 +6,7 @@ flatpak update --appstream
 flatpak install --user flathub    in.srev.guiscrcpy    -y 
 
 #essential
-flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
+flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal io.github.realmazharhussain.GdmSettings org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
 
 #browsers
 flatpak install flathub org.mozilla.firefox -y  
@@ -28,6 +28,22 @@ flatpak install flathub net.supertuxkart.SuperTuxKart -y
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
 #Gamming Utillities
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud -y
+
+###Dependancies wine
+flatpak install \
+runtime/org.freedesktop.Sdk/x86_64/21.08                           \
+org.freedesktop.Platform/x86_64/21.08                              \
+runtime/org.freedesktop.Sdk.Compat.i386/x86_64/21.08               \
+runtime/org.freedesktop.Sdk.Extension.toolchain-i386/x86_64/21.08  \
+org.freedesktop.Platform.GL.default/x86_64/21.08                   \
+org.freedesktop.Platform.VAAPI.Intel/x86_64/21.08                  \
+org.freedesktop.Platform.openh264/x86_64/2.0                       \
+org.freedesktop.Platform.Compat.i386/x86_64/21.08                  \
+org.freedesktop.Platform.GL32.default/x86_64/21.08 		   \
+flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton -y
+###Dependancies wine
+
+
 ####GAMES####
 
 #Wine
@@ -43,6 +59,10 @@ flatpak install  flathub  com.getmailspring.Mailspring  us.zoom.Zoom  com.skype.
 flatpak install flathub  com.chatterino.chatterino com.discordapp.Discord -y
 #Social Media Messengers
 flatpak install flathub org.signal.Signal  com.github.eneshecan.WhatsAppForLinux com.viber.Viber com.sindresorhus.Caprine flathub uk.co.ibboard.cawbird -y
+
+#Translator Programs
+flatpak install flathub net.poedit.Poedit -y
+
 ###COMMUNICATION APPS###
 
 ###engineering###
