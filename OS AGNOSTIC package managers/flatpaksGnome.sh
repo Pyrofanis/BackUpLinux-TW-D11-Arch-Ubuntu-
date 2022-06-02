@@ -40,7 +40,7 @@ org.freedesktop.Platform.VAAPI.Intel/x86_64/21.08                  \
 org.freedesktop.Platform.openh264/x86_64/2.0                       \
 org.freedesktop.Platform.Compat.i386/x86_64/21.08                  \
 org.freedesktop.Platform.GL32.default/x86_64/21.08 		   \
-flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton -y
+com.valvesoftware.Steam.CompatibilityTool.Proton -y
 ###Dependancies wine
 
 
@@ -73,7 +73,7 @@ flatpak install flathub de.lernsoftware_filius.Filius    org.gabmus.whatip -y
 ##Complex Calculation and maths
 flatpak install flathub  org.octave.Octave org.kde.cantor -y
 ##Robotics
-flatpak install flathub cc.arduino.arduinoide 
+flatpak install flathub cc.arduino.arduinoide -y
 ###engineering###
 
 ###development###
