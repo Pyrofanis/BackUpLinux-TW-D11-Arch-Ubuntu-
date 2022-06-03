@@ -80,7 +80,7 @@ flatpak install flathub cc.arduino.arduinoide -y
 #Languages
 flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala org.freedesktop.Sdk.Extension.mono6 org.freedesktop.Sdk.Extension.dotnet6  -y
 #IDES
-flatpak install flathub   org.gnome.Builder com.visualstudio.code    com.jetbrains.Rider  com.google.AndroidStudio org.kde.kate -y
+flatpak install flathub   org.gnome.Builder com.visualstudio.code    com.jetbrains.Rider  com.google.AndroidStudio org.kde.kate com.jetbrains.IntelliJ-IDEA-Community -y
 ##Git Managers
 flatpak install flathub io.github.shiftey.Desktop -y
 ##Game Engines
