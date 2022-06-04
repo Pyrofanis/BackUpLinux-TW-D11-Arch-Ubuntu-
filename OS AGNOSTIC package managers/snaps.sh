@@ -39,6 +39,8 @@ sudo snap install anbox --edge --devmode
 sudo snap install poddr
 sudo snap install tela-icons
 sudo snap install deja-dup --classic
+sudo snap install supertuxkart
+sudo snap install retroarch
 
 sudo snap install codium --classic
 sudo snap install dotnet-sdk --classic --channel=6.0
