@@ -7,6 +7,8 @@ sudo tukit -c  execute  zypper in  ModemManager NetworkManager-bluetooth Network
 #appimages dependancies
 sudo tukit execute  -c  zypper in fuse libfuse2
 
+#filesystem utils 
+sudo tukit execute -c zypper in   exfatprogs  fatsort fuse-exfat ntfs-3g ntfsprogs ntfsprogs-extra 
 #wanted apps
 sudo tukit execute  -c  zypper  in fish grep nano  libfsapfs   make gcc      sed curl openssl       qemu virt-manager unrar   vncmanager xorg-x11-Xvnc-novnc  gamemoded neofetch firewalld
 
