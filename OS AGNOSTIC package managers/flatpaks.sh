@@ -89,7 +89,7 @@ flatpak install flathub   org.gnome.Builder com.visualstudio.code    com.jetbrai
 ##Git Managers
 flatpak install flathub io.github.shiftey.Desktop -y
 ##Game Engines
-flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot com.unity.UnityHub -y
+flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot -y
 #Docker 
 flatpak install flathub   com.github.sdv43.whaler -y
 ###development###
