@@ -9,8 +9,13 @@ sudo zypper  -n in  godot blender krita kdenlive  inkscape gimp
 ##Graphical production and game engines
 
 ##Cli apps
-sudo zypper -n  in  htop neofetch unrar  grep sed curl  clamtk opi fish zsh amdtop qemu
+sudo zypper -n  in  htop  unrar  grep sed curl  clamtk opi fish zsh amdtop qemu
 ##Cli apps
+
+##playful Cli apps
+sudo zypper -n in neofetch oneko
+##playful Cli apps
+
 
 ##Containerization
 sudo zypper -n in podman toolbox
