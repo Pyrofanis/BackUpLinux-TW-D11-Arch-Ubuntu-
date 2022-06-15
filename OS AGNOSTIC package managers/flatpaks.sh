@@ -19,9 +19,9 @@ flatpak install flathub com.anydesk.Anydesk  md.obsidian.Obsidian org.libreoffic
 flatpak install --user flathub-beta net.lutris.Lutris//beta -y
 #Game Launchers
 flatpak install flathub io.github.sharkwouter.Minigalaxy com.valvesoftware.Steam  com.heroicgameslauncher.hgl com.gitlab.librebob.Athenaeum  -y
-#flatpak install flathub  dev.goats.xivlauncher -y
+flatpak install flathub  dev.goats.xivlauncher -y
 #Console Emulators
-#flatpak install flathub org.yuzu_emu.yuzu  org.desmume.DeSmuME  app.xemu.xemu net.rpcs3.RPCS3 io.github.m64p.m64p com.dosbox.DOSBox org.duckstation.DuckStation org.flycast.Flycast org.ppsspp.PPSSPP org.tuxfamily.hatari org.citra_emu.citra org.purei.Play io.github.dosbox-staging io.mgba.mGBA ca._0ldsk00l.Nestopia com.carpeludum.KegaFusion org.DolphinEmu.dolphin-emu -y 
+flatpak install flathub org.yuzu_emu.yuzu  org.desmume.DeSmuME  app.xemu.xemu net.rpcs3.RPCS3 io.github.m64p.m64p com.dosbox.DOSBox org.duckstation.DuckStation org.flycast.Flycast org.ppsspp.PPSSPP org.tuxfamily.hatari org.citra_emu.citra org.purei.Play io.github.dosbox-staging io.mgba.mGBA ca._0ldsk00l.Nestopia com.carpeludum.KegaFusion org.DolphinEmu.dolphin-emu -y 
 
 #miniGames
 flatpak install flathub net.supertuxkart.SuperTuxKart -y
@@ -83,13 +83,13 @@ flatpak install flathub cc.arduino.arduinoide -y
 
 ###development###
 #Languages
-flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala org.freedesktop.Sdk.Extension.mono6 org.freedesktop.Sdk.Extension.dotnet6  -y
+#flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala org.freedesktop.Sdk.Extension.mono6 org.freedesktop.Sdk.Extension.dotnet6  -y
 #IDES
 flatpak install flathub   org.gnome.Builder com.visualstudio.code    com.jetbrains.Rider  com.google.AndroidStudio org.kde.kate com.jetbrains.IntelliJ-IDEA-Community -y
 ##Git Managers
 flatpak install flathub io.github.shiftey.Desktop -y
 ##Game Engines
-flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot -y
+flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot com.unity.UnityHub -y
 #Docker 
 flatpak install flathub   com.github.sdv43.whaler -y
 ###development###

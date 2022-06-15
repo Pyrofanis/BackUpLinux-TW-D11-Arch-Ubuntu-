@@ -9,20 +9,19 @@ sudo zypper  -n in  godot blender krita kdenlive  inkscape gimp
 ##Graphical production and game engines
 
 ##Cli apps
-sudo zypper -n  in  htop  unrar  grep sed curl  clamtk opi fish zsh amdtop qemu
+sudo zypper -n  in  htop  unrar  grep sed curl  clamtk opi fish zsh amdtop qemu tree
 ##Cli apps
 
 ##playful Cli apps
-sudo zypper -n in neofetch oneko
+sudo zypper -n in neofetch oneko hollywood
 ##playful Cli apps
-
 
 ##Containerization
 sudo zypper -n in podman toolbox
 ##Containerization
 
-##Lutris Dependsancies
-sudo zypper -n  in libvulkan_radeon-32bit wine-gecko   wine-mono winetricks wine-devel wine-devel-32bit   libdrm_amdgpu1 libdrm_amdgpu1-32bit libdrm_radeon1 libdrm_radeon1-32bit libvulkan_radeon libvulkan_radeon-32bit libvulkan1 libvulkan1-32bit gamemoded  vulkan-tools libvkd3d-utils1 libvkd3d-utils1-32bit dxvk dxvk-32bit vulkan-devel wine dvgrab
+##Lutris.Games Dependsancies /wine
+sudo zypper -n  in libvulkan_radeon-32bit wine-gecko   wine-mono winetricks wine-staging wine-staging-32bit wine-staging-devel wine-staging-devel-32bit   libdrm_amdgpu1 libdrm_amdgpu1-32bit libdrm_radeon1 libdrm_radeon1-32bit libvulkan_radeon libvulkan_radeon-32bit libvulkan1 libvulkan1-32bit gamemoded  vulkan-tools libvkd3d-utils1 libvkd3d-utils1-32bit dxvk dxvk-32bit vulkan-devel  dvgrab
 ##Lutris Dependsancies
 
 ##Games

@@ -6,6 +6,6 @@ sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://mirror.mwt
 
 
 
-sudo ./zypper.sh 
+sudo ./'zypper Reworked.sh' 
 ./flatpaks.sh
 
