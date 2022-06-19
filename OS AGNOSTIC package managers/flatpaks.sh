@@ -27,7 +27,7 @@ flatpak install flathub org.yuzu_emu.yuzu  org.desmume.DeSmuME  app.xemu.xemu ne
 flatpak install flathub net.supertuxkart.SuperTuxKart -y
 
 #Streaming game platforms
-flatpak install flathub re.chiaki.Chiaki -y
+flatpak install flathub re.chiaki.Chiaki  io.github.hmlendea.geforcenow-electron -y
 
 #Proton Managers
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
@@ -55,7 +55,7 @@ com.valvesoftware.Steam.CompatibilityTool.Proton -y
 flatpak install  flathub   org.winehq.Wine org.winehq.Wine.mono org.winehq.Wine.gecko org.winehq.Wine.DLLs.dxvk      org.phoenicis.playonlinux    com.usebottles.bottles  -y
 
 #torrents
-flatpak install  flathub com.transmissionbt.Transmission  -y
+flatpak install  flathub de.haeckerfelix.Fragments -y
 
 ###COMMUNICATION APPS###
 #comms
@@ -111,5 +111,5 @@ flatpak install flathub org.ardour.Ardour -y
 flatpak install flathub org.twinery.Twine -y
 ###Multimedia###
 #reading
-flatpak install flathub com.github.johnfactotum.Foliate -y
+flatpak install flathub com.github.johnfactotum.Foliate com.calibre_ebook.calibre -y
 
