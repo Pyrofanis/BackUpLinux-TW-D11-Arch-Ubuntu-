@@ -32,7 +32,7 @@ flatpak install flathub re.chiaki.Chiaki  io.github.hmlendea.geforcenow-electron
 #Proton Managers
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
 #Gamming Utillities
-flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud -y
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud com.valvesoftware.Steam.Utility.steamtinkerlaunch -y
 
 ###Dependancies wine
 flatpak install \
@@ -100,7 +100,7 @@ flatpak install  flathub  org.videolan.VLC io.mpv.Mpv/x86_64/stable -y
 #multimedia players services
 flatpak install flathub  com.spotify.Client org.js.nuclear.Nuclear   -y
 #Multimedia production 2d drawing,editing
-flatpak install  flathub org.inkscape.Inkscape com.github.libresprite.LibreSprite com.github.PintaProject.Pinta com.orama_interactive.Pixelorama org.gimp.GIMP org.kde.krita -y
+flatpak install  flathub org.inkscape.Inkscape com.github.libresprite.LibreSprite com.github.PintaProject.Pinta com.orama_interactive.Pixelorama org.gimp.GIMP org.kde.krita org.darktable.Darktable  -y
 #Multimedia production 3d
 flatpak install flathub  org.blender.Blender -y 
 #multimedia production video
