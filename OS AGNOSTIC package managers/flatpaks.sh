@@ -32,7 +32,8 @@ flatpak install flathub re.chiaki.Chiaki  io.github.hmlendea.geforcenow-electron
 #Proton Managers
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
 #Gamming Utillities
-flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud com.valvesoftware.Steam.Utility.steamtinkerlaunch -y
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud com.valvesoftware.Steam.Utility.steamtinkerlaunch com.valvesoftware.Steam.CompatibilityTool.Proton com.valvesoftware.Steam.CompatibilityTool.Proton-GE com.valvesoftware.Steam.CompatibilityTool.Proton-Exp com.valvesoftware.Steam.Utility.gamescope com.valvesoftware.Steam.CompatibilityTool.Boxtron
+-y
 
 ###Dependancies wine
 flatpak install \
@@ -113,3 +114,7 @@ flatpak install flathub org.twinery.Twine -y
 #reading
 flatpak install flathub com.github.johnfactotum.Foliate com.calibre_ebook.calibre -y
 
+
+###PRIVACY###
+##Metadata
+flatpak install fr.romainvigier.MetadataCleaner -y
