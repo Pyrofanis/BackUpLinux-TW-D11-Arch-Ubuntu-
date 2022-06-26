@@ -3,7 +3,7 @@ flatpak remote-add --user --if-not-exists flathub-beta https://flathub.org/beta-
 flatpak update --appstream
 
 #utillity
-flatpak install --user flathub    in.srev.guiscrcpy    -y 
+flatpak install --user flathub    in.srev.guiscrcpy  io.github.JaGoLi.ytdl_gui   -y 
 
 #essential
 flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal io.github.realmazharhussain.GdmSettings org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
@@ -19,7 +19,7 @@ flatpak install flathub com.anydesk.Anydesk  md.obsidian.Obsidian org.libreoffic
 flatpak install --user flathub-beta net.lutris.Lutris//beta -y
 #Game Launchers
 flatpak install flathub io.github.sharkwouter.Minigalaxy com.valvesoftware.Steam  com.heroicgameslauncher.hgl com.gitlab.librebob.Athenaeum  -y
-flatpak install flathub  dev.goats.xivlauncher -y
+flatpak install flathub  dev.goats.xivlauncher   org.polymc.PolyMC   -y
 #Console Emulators
 flatpak install flathub org.yuzu_emu.yuzu  org.desmume.DeSmuME  app.xemu.xemu net.rpcs3.RPCS3 io.github.m64p.m64p com.dosbox.DOSBox org.duckstation.DuckStation org.flycast.Flycast org.ppsspp.PPSSPP org.tuxfamily.hatari org.citra_emu.citra org.purei.Play io.github.dosbox-staging io.mgba.mGBA ca._0ldsk00l.Nestopia com.carpeludum.KegaFusion org.DolphinEmu.dolphin-emu -y 
 
@@ -32,8 +32,10 @@ flatpak install flathub re.chiaki.Chiaki  io.github.hmlendea.geforcenow-electron
 #Proton Managers
 flatpak install flathub  com.github.Matoking.protontricks net.davidotek.pupgui2 -y
 #Gamming Utillities
-flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud com.valvesoftware.Steam.Utility.steamtinkerlaunch com.valvesoftware.Steam.CompatibilityTool.Proton com.valvesoftware.Steam.CompatibilityTool.Proton-GE com.valvesoftware.Steam.CompatibilityTool.Proton-Exp com.valvesoftware.Steam.Utility.gamescope com.valvesoftware.Steam.CompatibilityTool.Boxtron
--y
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud com.valvesoftware.Steam.Utility.steamtinkerlaunch  com.valvesoftware.Steam.Utility.gamescope com.valvesoftware.Steam.CompatibilityTool.Boxtron -y
+
+#Hardware Utillities
+flatpak install flathub org.openrgb.OpenRGB -y
 
 ###Dependancies wine
 flatpak install \
