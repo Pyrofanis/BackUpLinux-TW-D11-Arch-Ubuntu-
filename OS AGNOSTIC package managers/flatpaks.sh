@@ -116,6 +116,8 @@ flatpak install flathub org.twinery.Twine -y
 #reading
 flatpak install flathub com.github.johnfactotum.Foliate com.calibre_ebook.calibre -y
 
+###Entertainment###
+flatpak install com.stremio.Stremio -y
 
 ###PRIVACY###
 ##Metadata
