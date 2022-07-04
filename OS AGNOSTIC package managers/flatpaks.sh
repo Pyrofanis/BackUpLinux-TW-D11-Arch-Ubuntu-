@@ -100,6 +100,8 @@ flatpak install flathub   com.github.sdv43.whaler -y
 ###Multimedia###
 #multimedia players local files
 flatpak install  flathub  org.videolan.VLC io.mpv.Mpv/x86_64/stable -y
+#find song file info
+flatpak install flathub org.musicbrainz.Picard -y
 #multimedia players services
 flatpak install flathub  com.spotify.Client org.js.nuclear.Nuclear   -y
 #Multimedia production 2d drawing,editing
