@@ -3,15 +3,16 @@ flatpak remote-add --user --if-not-exists flathub-beta https://flathub.org/beta-
 flatpak update --appstream
 
 #utillity
-flatpak install --user flathub    in.srev.guiscrcpy  io.github.JaGoLi.ytdl_gui   -y 
+flatpak install --user flathub    in.srev.guiscrcpy  io.github.JaGoLi.ytdl_gui   -y
 
 #essential
-flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal io.github.realmazharhussain.GdmSettings org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
+flatpak install --user flathub io.github.prateekmedia.appimagepool  com.mattjakeman.ExtensionManager   com.github.tchx84.Flatseal io.github.realmazharhussain.GdmSettings
+flatpak install  org.gnome.Platform.Compat.i386/x86_64/41 org.gnome.Platform.Compat.i386/x86_64/42 org.freedesktop.Platform.GL32.default/x86_64/21.08 -y
 
 #browsers
-flatpak install flathub org.mozilla.firefox -y  
+flatpak install flathub app/org.mozilla.firefox/x86_64/stable  -y
 
-#work essentials 
+#work essentials
 flatpak install flathub com.anydesk.Anydesk  md.obsidian.Obsidian org.libreoffice.LibreOffice/x86_64/stable  -y
 
 ####GAMES####
@@ -86,14 +87,14 @@ flatpak install flathub cc.arduino.arduinoide -y
 
 ###development###
 #Languages
-#flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala org.freedesktop.Sdk.Extension.mono6 org.freedesktop.Sdk.Extension.dotnet6  -y
+flatpak install flathub org.freedesktop.Sdk.Extension.dotnet org.freedesktop.Sdk.Extension.rust-stable org.freedesktop.Sdk.Extension.vala org.freedesktop.Sdk.Extension.mono6 org.freedesktop.Sdk.Extension.dotnet6  -y
 #IDES
 flatpak install flathub   org.gnome.Builder com.visualstudio.code    com.jetbrains.Rider  com.google.AndroidStudio org.kde.kate com.jetbrains.IntelliJ-IDEA-Community -y
 ##Git Managers
 flatpak install flathub io.github.shiftey.Desktop -y
 ##Game Engines
 flatpak install flathub io.github.achetagames.epic_asset_manager   org.godotengine.Godot com.unity.UnityHub -y
-#Docker 
+#Docker
 flatpak install flathub   com.github.sdv43.whaler -y
 ###development###
 
